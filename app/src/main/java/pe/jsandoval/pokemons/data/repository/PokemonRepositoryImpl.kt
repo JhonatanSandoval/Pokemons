@@ -33,7 +33,7 @@ constructor(
         regions.add(Region("Cualquier región", 0, 3000))
         regions.add(Region("Kanto", 0, 150))
         regions.add(Region("Johto", 151, 250))
-        regions.add(Region("Hoeen", 251, 385))
+        regions.add(Region("Hoenn", 251, 385))
         regions.add(Region("Sinnoh", 386, 492))
         regions.add(Region("Teselia", 493, 648))
         regions.add(Region("Kalos", 649, 720))

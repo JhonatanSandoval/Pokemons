@@ -47,7 +47,7 @@ class PokemonActivity : BaseActivity(), PokemonView {
             val regionSelected = regions[position]
             presenter.getPokemons(regionSelected)
         }
-        presenter.getPokemons(regions[2]) // default
+        presenter.getPokemons(regions[3]) // default
     }
 
     override fun loadPokemons(data: List<Pokemon>) {
